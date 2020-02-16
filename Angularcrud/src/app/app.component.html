@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Angular CRUD</h1> 
+   
+  </div>
+  <div class="row">
+          <div class="col-md-6"><app-employee></app-employee></div>
+          <div class="col-md-6"><app-employee-list></app-employee-list> </div>
+  </div>
+</div>
+<h1>
+  <div *ngFor="let data of states">
+
+  {{data.statename}}
+  <div *ngFor="let city of data.cities">
+    {{city.cityname}}
+    <div *ngFor="let area of city.areas">
+      {{area.areaname}}
+    </div>
+    </div>
+  </div>
+</h1>

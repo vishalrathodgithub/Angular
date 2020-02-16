@@ -1,0 +1,22 @@
+<p>student-list works!</p>
+<div class="container">
+    <table class="table table-striped">
+      <tbody *ngFor="let data of shared.StuDetails">
+        <tr>
+          <td>{{data.id}}</td>
+          <td>{{data.name}}</td>
+          <td>{{data.addr}}  </td>
+          <td>{{data.marks}}  </td>
+          <td><a class="btn"  (click)="edit(data)">
+            <i class="fa fa-edit"></i>
+          </a>
+          </td>
+          <td><a class="btn" (click)="Studelete(data)">
+            <i class="fa fa-trash"></i>
+          </a>
+          </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+  

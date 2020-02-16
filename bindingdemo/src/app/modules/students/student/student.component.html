@@ -1,0 +1,28 @@
+<p>student works!</p>
+<div class="container">
+        <div class="form-group">
+                <input type="number" class="form-control" [hidden]="shared.Id_Hide" disabled placeholder="Enter Roll number" [(ngModel)]="shared.Student1.id" >
+            </div>
+    <div class="row">
+    
+    <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter first name" [(ngModel)]="shared.Student1.name">
+      </div>
+      <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter addr" [(ngModel)]="shared.Student1.addr" >
+      </div>
+    
+    </div>
+    
+    <div class="form-group">
+        Enter marks<input type="number" class="form-control"  placeholder="Enter marks" [(ngModel)]="shared.Student1.marks" >
+    </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-success btn-lg btn-block" (click)="submitdata(shared.Student1)" >{{shared.BtnName}}</button>
+      </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-warning btn-lg btn-block" [hidden]="shared.ResetBtnHide" (click)="reset()">reset</button>
+      </div>
+    </div>

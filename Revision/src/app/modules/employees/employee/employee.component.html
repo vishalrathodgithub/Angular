@@ -1,0 +1,28 @@
+
+<div class="container">
+        <div class="form-group">
+                <input type="number"  class="form-control" disabled  placeholder="Enter id" [(ngModel)]="shared.employee1.id" [hidden]="shared.Id_Hide"  >
+            </div>
+    <div class="row">
+    
+    <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter first name" [(ngModel)]="shared.employee1.first">
+      </div>
+      <div class="form-group col-md-6">
+          <input type="text" class="form-control"  placeholder="Enter last name" [(ngModel)]="shared.employee1.last">
+      </div>
+    
+    </div>
+    
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Enter designation" [(ngModel)]="shared.employee1.designation" >
+    </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-success btn-lg btn-block" (click)="submit(shared.employee1)" >{{shared.BtnName}}</button>
+      </div>
+    
+      <div class="form-group"> 
+          <button class="btn btn-warning btn-lg btn-block" (click)="reset()" [hidden]="shared.BtnHide">reset</button>
+      </div>
+    </div>

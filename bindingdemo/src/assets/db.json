@@ -1,0 +1,22 @@
+{
+  "Student": [
+    {
+      "id": 1,
+      "name": "vishal",
+      "addr": "pune",
+      "marks": 99
+    },
+    {
+      "id": 90,
+      "name": "krishna",
+      "addr": "gokul",
+      "marks": 1000
+    },
+    {
+      "id": 91,
+      "name": "vedant",
+      "addr": "sharma",
+      "marks": 99
+    }
+  ]
+}

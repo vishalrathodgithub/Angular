@@ -1,0 +1,27 @@
+<div class="card">
+   <h2> <div class="card header"align="center">calculator</div>><br></h2>
+    <div class="card body">
+
+        <div class="form-group d-flex flex-row"align="center">
+            <input  type="number" name="num1" class="form-control">&nbsp;&nbsp;
+            <input  type="number" name="num2" class="form-control">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+        </div>
+        <div class="d-flex flex-row "align="center">
+            <button class="btn btn-success" (click)="addition()">sum</button>&nbsp;&nbsp;
+            <button class="btn btn-success" (click)="subtraction()">sub</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-success" (click)="multipl()">mul</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-success" (click)="division()">div</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        </div>
+
+    </div>
+        <div class="d-flex flex-row "align="center">
+            <div class="card-footer" >
+        <h4>
+            the sum of {{num1}} and {{num2}} is {{result}}
+        </h4>
+    </div>
+
+</div>

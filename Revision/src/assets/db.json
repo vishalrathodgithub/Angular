@@ -1,0 +1,40 @@
+{
+  "Employee": [
+    {
+      "id": 1,
+      "first": "vishal",
+      "last": "rathod",
+      "designation": "developer"
+    },
+    {
+      "id": 2,
+      "first": "viaan",
+      "last": "lokhande",
+      "designation": "developer"
+    },
+    {
+      "id": 3,
+      "first": "Dhaniya",
+      "last": "gadve",
+      "designation": "manager"
+    },
+    {
+      "id": 5,
+      "first": "shubham",
+      "last": "lokhande",
+      "designation": "manager"
+    },
+    {
+      "id": 6,
+      "first": "munna ",
+      "last": "rathod",
+      "designation": "engineer"
+    },
+    {
+      "id": 7,
+      "first": "dsnds",
+      "last": "skdb",
+      "designation": "jsd"
+    }
+  ]
+}
